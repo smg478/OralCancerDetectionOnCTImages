@@ -10,16 +10,16 @@ B. By running the code in visual studio environment.
 
 ### A. Testing by running the stand-alone executable file:
 
-In the package, “executable” folder contains a setup file. Run the setup file and a shortcut named “CAD-CT” will be created in the desktop. From that shortcut folder, run the CT_CAD.exe file. A folder browsing window will pop up and you can select a folder containing CT images from there. The program will run and will show detected images (if any). To exit from the program, close the console window. 
+In the repo, “executable” folder contains a setup file. Run the setup file and a shortcut named “CAD-CT” will be created in the desktop. From that shortcut folder, run the CT_CAD.exe file. A folder browsing window will pop up and you can select a folder containing CT images from there. The program will run and will show detected images (if any). To exit from the program, close the console window. 
+
 If you want, you can uninstall the software anytime from “add/remove program” section in control panel. 
 
-### B. Testing the code in Visual Studio environment
+### B. Testing the code in Visual Studio environment:
 
-The project was tested using Visual Studio 2010 (Service Pack 1). Therefore, it may not run properly in other versions of visual studio. 
+The project was tested using Visual Studio 2010 (Service Pack 1). Therefore, it may not run properly in other versions of visual studio. Please see Readme.pdf for details.
 
-“OpenCV” was used as a third party library for this project. Only free for commercial use modules were used. 
 
-## Supported Image Specification:
+## Supported Image Specification
 
 Input image: Reconstructed oral CT scan (.raw) 
 
@@ -30,6 +30,8 @@ Image dimension: 800x800x(400~500: around 400-500 slices for a single patient)
 One folder should contain all image slices of a patient.
 
 ## Environment
+
+Windows 7
 
 Visual Studio 2010
 
