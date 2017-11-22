@@ -8,7 +8,7 @@ A. By running the stand-alone executable file.
 
 B. By running the code in visual studio environment. 
 
-These two methods are explained in Readme.pdf file.
+These two methods are explained in readme.pdf file.
 
 
 ## Requirements
@@ -21,7 +21,7 @@ OpenCV 2.4.9
 
 ## Usage
 
-Please refer to Readme.pdf
+Please refer to readme.pdf
 
 ## Citation
 
